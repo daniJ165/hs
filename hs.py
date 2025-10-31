@@ -6,11 +6,12 @@ def happy_sabbath():
     #hs_options = [ "cheers mate happy sabbath !!", "happy sabbath goose !", "dnalel htabbas yppah", "happy Sabbathmate mate!", "happpyyyy sabbaaatthhhh lelanddddd!!", "yooo lessgooo u got thru another week!! happy sabbath", "IT'S SABBATH LESSSGOOOO! HAPPY SABBATH MATE!", "HaPpY SaBbAtH", "h/|ppy $a88a+h $i!!y g00$e" ]
 
 
-    print("\x1b[38;2;142;194;21mCHEERS\x1b[0m")
+    print("\x1b[48;5;166mCHEERS\x1b[0m")
     
-    print("\x1b[38;2;142;194;21mMATE\x1b[0m")
+    print("\x1b[48;5;15m M\x1b[0m", "\x1b[48;5;20mAT\x1b[0m", "\x1b[48;5;15mE \x1b[0m", sep="")
  
-    print("\x1b[38;2;142;194;21mHAPPY\x1b[0m")
+    print("\x1b[48;2;142;194;21mHAPPY \x1b[0m")
+    print()
     print("\x1b[48;2;194;21;139mSABBATH !!\x1b[0m")
 
    #print("bruh why u running hs on a weekday??? GOTTT EEMMMM")
