@@ -11,7 +11,7 @@ def happy_sabbath():
     print("\x1b[38;2;142;194;21mMATE\x1b[0m")
  
     print("\x1b[38;2;142;194;21mHAPPY\x1b[0m")
-    print("\x1b[48;2;194;21;139mSABBTH !!\x1b[0m")
+    print("\x1b[48;2;194;21;139mSABBATH !!\x1b[0m")
 
    #print("bruh why u running hs on a weekday??? GOTTT EEMMMM")
     print('''
