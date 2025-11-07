@@ -7,13 +7,16 @@ pkgs.stdenv.mkDerivation rec {
 
   src = ./.;
 
+
   buildInputs = [
     pkgs.python3
+    pkgs.figlet
+    pkgs.bash
     ];
 
     installPhase = ''
       mkdir -p $out/bin
-      cp $src/hs.py $out/bin/hs
+      cp $src/hs.sh $out/bin/hs
       chmod +x $out/bin/hs
       '';
 }

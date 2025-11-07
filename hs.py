@@ -10,7 +10,7 @@ def happy_sabbath():
     
     print("\x1b[48;5;15m M\x1b[0m", "\x1b[48;5;20mAT\x1b[0m", "\x1b[48;5;15mE \x1b[0m", sep="")
  
-    print("\x1b[48;2;142;194;21mHAPPY \x1b[0m")
+    print("\x1b[48;5;22mHAPPY \x1b[0m")
     print()
     print("\x1b[48;2;194;21;139mSABBATH !!\x1b[0m")
 
