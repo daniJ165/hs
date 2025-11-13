@@ -10,7 +10,7 @@ pkgs.stdenv.mkDerivation rec {
 
   buildInputs = [
     pkgs.python3
-    pkgs.figlet
+    #pkgs.figlet
     pkgs.bash
     ];
 
