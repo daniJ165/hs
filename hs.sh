@@ -1,59 +1,45 @@
 #! /bin/bash
 
-echo "yooo lelandddd"
+echo " "
 
 sleep 2
 
 clear
 
-echo "i hope u have an awesome sabbath :)"
+echo "THE DAY IS FINALLY HERE!!! "
+
+sleep 3 
+
+clear
+
+echo " "
+
+sleep 2
+
+clear
+
+echo " there's so much i want to say, but i know saying it in person rather than on the terminal is much more valuable."
+
+sleep 5
+
+clear
+
+
+echo "but rn i just want to say that i'm so thankful to have a friend that is always there for me and prays for me and draws me closer to GOD !"
+sleep 5
+clear
+
+echo "i'm so glad that you will be there at my baptism to witness my commitment to serve GOD for the rest of my life!"
+sleep 5
+clear
+echo " "
+sleep 2
+clear
+
+
+echo "i'll see you soon, happy sabbath mate!!"
 
 sleep 3
 
 clear
-
-echo "i wont see you in ss which is blarg but i'll c ya soon!"
-
-sleep 4
-
-clear
-
-echo "may the GOD of hope fill you with all joy and peace ! (Romans 15:13)"
-
-sleep 4
-
-clear
-
-echo "and now..."
-
-sleep 2
-
-clear
-
-echo "5"
-
-sleep 1
-
-echo "4"
-
-sleep 1
-
-echo "3"
-sleep 1
-
-echo "2"
-sleep 1
-
-echo "1"
-
-sleep 1
-
-clear
-
-echo "CHHEEERRSSS MAAATTEEEE HAAPPPYY SAABBBAATHTHH !!!"
-
-sleep 7
-
-
-
 
