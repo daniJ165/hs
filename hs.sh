@@ -13,9 +13,9 @@ sleep 5
 
 clear
 
-echo "that was so great to hang out wit ya, i'll c ya again soon, cheers mate happy sabbath!!"
+echo "that was so great to hang out wit ya, i'll c ya again soon, cheers mate happy sabbath!! (oh and i just got one of ur jokes lolllll dude im so slow"
 
-sleep 4
+sleep 6
 
 clear 
 
