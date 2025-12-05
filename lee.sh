@@ -14,7 +14,7 @@ start_row=$(( (rows - message_height) / 2 ))
 # Function to print the messages
 print_messages() {
     local message1="CHEERS MATE"
-    local message2="HAPPY SABBATH!"
+    local message2=" HAPPY SABBATH!"
 
     local start_row1=${start_row} 
     local start_row2=$((start_row1 + 1))
