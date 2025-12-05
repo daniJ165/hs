@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+# Clear the screen
+clear
+
+# Get terminal size
+rows=$(tput lines)
+cols=$(tput cols)
+
+message_height=2
+start_row=$(( (rows - message_height) / 2 ))
+
+
+# Function to print the messages
+print_messages() {
+    local message1="CHEERS MATE"
+    local message2="HAPPY SABBATH!"
+
+    local start_row1=${start_row} 
+    local start_row2=$((start_row1 + 1))
+
+    local col1=$(( (cols - ${#message1}) / 2 ))
+    local col2=$(( (cols - ${#message2}) / 2 ))
+
+    local colors=$(( (RANDOM % 7) + 31 ))
+
+
+    # Print first message
+    for ((i=0; i<=${#message1}; i++)); do
+        tput cup $start_row1 $col1
+        echo -e "\e[1;${colors}m${message1:0:i}\e[0m"
+        sleep 0.1
+    done
+
+    # Print second message
+    for ((i=0; i<=${#message2}; i++)); do
+        tput cup $start_row2 $col2
+        echo -e "\e[1;${colors}m${message2:0:i}\e[0m"
+        sleep 0.1
+    done
+}
+
+
+while true; do
+    tput cup "$start_row" 0
+    print_messages
+    sleep 1
+    clear
+done
