@@ -16,7 +16,7 @@ pkgs.stdenv.mkDerivation rec {
 
     installPhase = ''
       mkdir -p $out/bin
-      cp $src/hs.sh $out/bin/hs
+      cp $src/cheers.sh $out/bin/hs
       chmod +x $out/bin/hs
       '';
 }
