@@ -7,7 +7,18 @@ clear
 # Function to print the messages
 print_messages() {
     local message1="CHEERS MATE"
-    local message2=" HAPPY SABBATH!"
+    local message2="   ____ _                                    
+ / ___| |__   ___  ___ _ __ ___   _ __ ___   __ _| |_ __
+| |   | '_  / _  _  '__/ __| | '_  _   _ | __/ _ \
+| |___| | | |  __/  __/ |  __  | | | | | | (_| | ||  
+ ____|_| |_|___|___|_|  |___/ |_| |_| |_|__,_|_____|
+                                                          
+ _                                         _     _           _   _     
+| |__   __ _ _ __  _ __  _   _   ___  __ _| |__ | |__   __ _| |_| |__  
+| '_  / _  _  '_  | | | / __|/ _  _  _  / _ | __| '_  
+| | | | (_| | |_) | |_) | |_| | __  (_| | |_) | |_) | (_| | |_| | | |
+|_| |_|__,_| .__/| .__/ __, | |___/__,_|_.__/|_.__/ __,_|__|_| |_|
+            |_|   |_|    |___/                                         "
 
     local colors=$(( (RANDOM % 7) + 31 ))
 
@@ -15,19 +26,19 @@ print_messages() {
     column=$(( (RANDOM % 10) + 1 ))
 
     # Print first message
-    for ((i=0; i<=${#message1}; i++)); do
-        tput cup "$row" "$column"
+    #for ((i=0; i<=${#message1}; i++)); do
+        #tput cup "$row" "$column"
 
-        echo -e "\e[1;${colors}m${message1:0:i}\e[0m"
-        sleep 0.1
-    done
+        #echo -e "\e[1;${colors}m${message1:0:i}\e[0m"
+        #sleep 0.1
+    #done
 
     # Print second message
     for ((i=0; i<=${#message2}; i++)); do
         tput cup "$row" "$column"
 
         echo -e "\e[1;${colors}m${message2:0:i}\e[0m"
-        sleep 0.1
+        sleep 0.001
     done
 }
 
